@@ -1,0 +1,43 @@
+{
+	"geode": "4.7.0",
+	"early-load": true,
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "user95401.rcgd-vers-gdps",
+	"name": "RCGD VERS GDPS",	
+	"version": "v1.0.0",
+	"developers": [ "user95401", "RCGD VERS TEAM" ],
+	"description": "asd",
+	"links": {
+		"homepage": "https://t.me/antonballlss/2165",
+		"source": "https://github.com/user95401/RCGD-VERS-GDPS"
+	},
+	"resources": {
+		"sprites": [
+      "resources/sprites/*.png",
+			"resources/sprites/**/*.png"
+		],
+		"files": [
+			"resources/files/*.*",
+			"resources/files/**/*.*"
+		]
+	},
+	"dependencies": {
+		"alphalaneous.alphas_geode_utils": {
+			"version": ">=v1.1.5",
+			"importance": "suggested"
+		}
+	},
+	"settings": {
+		"redir request urls": {
+			"name": "redir request urls",
+			"description": "use original server by robtop",
+			"type": "bool",
+			"default": true
+		}
+	}
+}
